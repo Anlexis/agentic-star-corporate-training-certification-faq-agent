@@ -1,0 +1,24 @@
+# Runtime parameters — loaded by AgentRegistry, passed as Graph(config=...).
+# Separate from config/agent.yaml (the static manifest).
+
+max_retry: 3
+timeout_s: 30
+
+# Retrieval tuning — forwarded to the inner DomainWorkflowGraph by
+# TrainingFAQGraphNode._parent_config() under
+# config["configurable"]["retrieval"]; KBRetrieveNode reads top_k /
+# score_threshold / kb_path back from the state-seeded retrieval_config field
+# (fallback: module defaults mirroring these values).
+retrieval:
+  top_k: 4
+  score_threshold: 0.25
+  kb_path: "config/kb/training_catalog_kb.json"
+
+# Answer-composition tuning — forwarded under config["configurable"]["answer"]
+# and republished into inner state as answer_config. max_answer_chars bounds
+# the rendered answer; escalation_keywords raise the advisory routing flag
+# when the composed answer touches a case the training team must handle.
+answer:
+  max_answer_chars: 8000
+  supported_languages: ["ja", "vi", "en"]
+  escalation_keywords: ["grievance", "waiver", "exception", "appeal"]

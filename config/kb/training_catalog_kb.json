@@ -1,0 +1,162 @@
+[
+  {
+    "id": "TRN-LEAD-101",
+    "program_name": "Leadership Foundations",
+    "category": "leadership",
+    "source": "Corporate training catalog, leadership development section",
+    "tags": ["leadership", "management", "first-time", "manager", "team", "foundations"],
+    "content": "A twelve-week blended program for newly appointed and prospective team leads. Covers delegation, feedback conversations, team goal setting, and the internal performance-review cycle. Sessions run twice weekly, and completion requires a written team-improvement plan reviewed by the participant's own manager.",
+    "eligibility": {
+      "min_years_of_service": 2,
+      "departments": [],
+      "roles": ["manager", "lead", "supervisor"],
+      "grades": []
+    },
+    "application_procedure": "Submit the leadership nomination form through the learning portal with your manager's endorsement, then confirm your cohort preference when the scheduling e-mail arrives.",
+    "deadline": "Applications close six weeks before each quarterly cohort start."
+  },
+  {
+    "id": "TRN-LEAD-210",
+    "program_name": "Advanced Leadership Practicum",
+    "category": "leadership",
+    "source": "Corporate training catalog, leadership development section",
+    "tags": ["leadership", "advanced", "practicum", "strategy", "coaching", "senior"],
+    "content": "A six-month practicum for experienced managers leading multi-team functions. Combines executive coaching, a cross-department improvement project, and a strategy simulation. Participants are expected to devote roughly four hours a week outside scheduled sessions.",
+    "eligibility": {
+      "min_years_of_service": 5,
+      "departments": [],
+      "roles": ["manager", "director"],
+      "grades": ["g4", "g5"]
+    },
+    "application_procedure": "Request a nomination from your department head, attach your two most recent development reviews, and submit the advanced practicum application in the learning portal.",
+    "deadline": "One intake per year; applications close at the end of the first quarter."
+  },
+  {
+    "id": "TRN-COMP-050",
+    "program_name": "Annual Compliance and Information Security Refresher",
+    "category": "compliance",
+    "source": "Corporate training catalog, mandatory compliance section",
+    "tags": ["compliance", "mandatory", "security", "annual", "refresher", "policy", "privacy"],
+    "content": "The mandatory annual refresher on the code of conduct, information-handling policy, personal-data protection duties, and incident reporting. Delivered as four self-paced modules with a short assessment after each. Every employee must complete it once per calendar year regardless of role or tenure.",
+    "eligibility": {
+      "min_years_of_service": 0,
+      "departments": [],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "No application is required. The modules are assigned automatically in the learning portal at the start of your compliance window; open the assignment and complete all four modules.",
+    "deadline": "Must be completed within sixty days of assignment."
+  },
+  {
+    "id": "TRN-COMP-070",
+    "program_name": "Export Control and Trade Compliance Workshop",
+    "category": "compliance",
+    "source": "Corporate training catalog, mandatory compliance section",
+    "tags": ["compliance", "export", "trade", "workshop", "regulation", "controls"],
+    "content": "A one-day workshop for staff who handle cross-border shipments, technical data transfers, or overseas customer engagements. Covers classification, licence conditions, restricted-party screening, and the escalation path for an uncertain transaction.",
+    "eligibility": {
+      "min_years_of_service": 0,
+      "departments": ["logistics", "sales", "engineering"],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "Enrol directly from the compliance catalog page in the learning portal; no manager endorsement is needed, but notify your team lead of the workshop date.",
+    "deadline": "Enrolment closes two weeks before each scheduled session."
+  },
+  {
+    "id": "TRN-TECH-310",
+    "program_name": "Data Engineering Fundamentals",
+    "category": "technical_skills",
+    "source": "Corporate training catalog, technical skills section",
+    "tags": ["technical", "data", "engineering", "pipeline", "sql", "fundamentals"],
+    "content": "An eight-week technical course covering relational modelling, batch and streaming pipeline design, data quality checks, and cost-aware storage choices. Each week pairs a lecture with a hands-on lab in a sandbox environment; a capstone pipeline is submitted at the end.",
+    "eligibility": {
+      "min_years_of_service": 1,
+      "departments": ["engineering", "analytics"],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "Complete the self-assessment quiz on the course page, then submit the technical enrolment request; places are allocated in order of submission once the quiz is passed.",
+    "deadline": "Rolling intake; each cohort closes when its thirty places are filled."
+  },
+  {
+    "id": "TRN-TECH-420",
+    "program_name": "Secure Development Practices",
+    "category": "technical_skills",
+    "source": "Corporate training catalog, technical skills section",
+    "tags": ["technical", "security", "development", "secure", "coding", "review", "threat"],
+    "content": "A four-day intensive on threat modelling, secure coding patterns, dependency and supply-chain risk, and security-focused code review. Delivered to intact engineering teams so that the threat model produced during the course applies to a service the team actually owns.",
+    "eligibility": {
+      "min_years_of_service": 1,
+      "departments": ["engineering"],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "Team leads request a team booking through the technical training queue in the learning portal; individual enrolment is not offered for this program.",
+    "deadline": "Team bookings are confirmed one month ahead of the requested week."
+  },
+  {
+    "id": "TRN-CERT-505",
+    "program_name": "Project Management Certification Support",
+    "category": "certification",
+    "source": "Corporate training catalog, certification support section",
+    "tags": ["certification", "project", "management", "exam", "support", "reimbursement"],
+    "content": "Structured preparation for the recognised project-management certification: a study plan, six evening review sessions, two mock examinations, and an examination-fee reimbursement on first-attempt passes. Participants keep the certification personally; there is no service commitment attached.",
+    "eligibility": {
+      "min_years_of_service": 3,
+      "departments": [],
+      "roles": [],
+      "grades": ["g3", "g4", "g5"]
+    },
+    "application_procedure": "Register your intended examination date in the certification support form, attach your manager's approval for the study leave, and book the review sessions once your registration is confirmed.",
+    "deadline": "Register at least ninety days before your intended examination date."
+  },
+  {
+    "id": "TRN-CERT-540",
+    "program_name": "Cloud Architecture Certification Track",
+    "category": "certification",
+    "source": "Corporate training catalog, certification support section",
+    "tags": ["certification", "cloud", "architecture", "track", "exam", "lab"],
+    "content": "A guided track towards the associate and professional cloud-architecture certifications, combining vendor courseware, a shared lab environment, and fortnightly study groups. The track assumes prior hands-on experience with at least one cloud platform.",
+    "eligibility": {
+      "min_years_of_service": 2,
+      "departments": ["engineering", "analytics"],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "Submit the certification track request with a short statement of your current cloud experience; the training team confirms lab access within ten working days.",
+    "deadline": "Two intakes per year, closing at the end of the second and fourth quarters."
+  },
+  {
+    "id": "TRN-RESK-610",
+    "program_name": "Digital Reskilling Pathway",
+    "category": "reskilling",
+    "source": "Corporate training catalog, reskilling and career transition section",
+    "tags": ["reskilling", "digital", "pathway", "transition", "career", "subsidy", "career-change"],
+    "content": "A nine-month part-time pathway for employees moving from an administrative or operational role into a digital role. Combines foundational data literacy, automation tooling, and a supervised placement in the receiving department. Eligible participants may be supported by a public reskilling subsidy; the training team confirms the applicable scheme and its conditions individually before enrolment.",
+    "eligibility": {
+      "min_years_of_service": 3,
+      "departments": [],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "Discuss the move with your current manager, then submit the reskilling pathway application together with the receiving department's expression of interest. The training team confirms subsidy eligibility separately before your place is finalised.",
+    "deadline": "One intake per year; applications close at the end of the third quarter."
+  },
+  {
+    "id": "TRN-RESK-650",
+    "program_name": "Career Transition Advisory Sessions",
+    "category": "reskilling",
+    "source": "Corporate training catalog, reskilling and career transition section",
+    "tags": ["reskilling", "career", "advisory", "transition", "counselling", "planning"],
+    "content": "Three confidential one-to-one sessions with a career adviser covering skills mapping, realistic internal move options, and a twelve-month development plan. The sessions are advisory only and do not themselves grant a transfer or a place on any program.",
+    "eligibility": {
+      "min_years_of_service": 1,
+      "departments": [],
+      "roles": [],
+      "grades": []
+    },
+    "application_procedure": "Book directly in the advisory calendar on the learning portal. Manager approval is not required, and session content is not shared with your department.",
+    "deadline": "Bookings open monthly and close when the month's slots are taken."
+  }
+]
